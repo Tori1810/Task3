@@ -5,7 +5,6 @@ import { graphql, compose } from 'react-apollo';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Content.css';
 import imgUrl from '../images/poster.jpg'
-//import text from './Content.md'
 
 
 class Content extends React.Component {

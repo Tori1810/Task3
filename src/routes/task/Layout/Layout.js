@@ -9,6 +9,7 @@ import Header from '../Header/Header'
 import Pannel from '../Pannel/Pannel'
 import Catalog from '../Catalog/Catalog'
 import Content from '../Content/Content'
+import Gallery from '../Gallery/Gallery'
 
 
 
@@ -22,6 +23,7 @@ class Layout extends React.Component {
       	<Pannel />
       	<Catalog />
         <Content />
+        <Gallery />
       </div>
     );
   }

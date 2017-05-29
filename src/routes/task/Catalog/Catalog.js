@@ -18,9 +18,15 @@ class Catalog extends React.Component {
         <div className={s.title}>Каталог продукції</div>
         <div className={s.catalog__menu}>
           <ul className={s.catalog__menu_list}>
-            <li className={s.menu_list__item1}>Внутрішнє та зовнішнє оздоблення</li>
-            <li className={s.menu_list__item2}>Складні архітектурні вироби</li>
-            <li className={s.menu_list__item3}>Садово-паркове мистецтво</li>
+            <li className={s.menu_list__item1}>
+            <a href='#' className={s.menu_list__link1}>Внутрішнє та зовнішнє оздоблення</a>
+            </li>
+            <li className={s.menu_list__item2}>
+            <a href='#' className={s.menu_list__link2}>Складні архітектурні вироби</a>
+            </li>
+            <li className={s.menu_list__item3}>
+            <a href='#' className={s.menu_list__link3}>Садово-паркове мистецтво</a>
+            </li>
           </ul>
           <a href='#' className={s.catalog_menu__button}>Каталог продукції</a>
         </div>

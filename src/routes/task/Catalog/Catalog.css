@@ -20,20 +20,20 @@
 	height: 355px;
 }
 
-.catalog__menu_list{
-	list-style: none;
-	padding: 0;
-}
-
 .menu_list__item1, 
 .menu_list__item2, 
 .menu_list__item3{
-	font-size: 1.25em;
 	margin-bottom: 20px;
+}
+
+.menu_list__link1,
+.menu_list__link2,
+.menu_list__link3{
+	font-size: 1.25em;
 	color: gray;
 }
 
-.menu_list__item1{
+.menu_list__link1{
 	color: black;
 }
 
@@ -43,11 +43,9 @@
 	height: 53px;
 	font-size: 1.25em;
 	border: 2px solid black;
-	text-decoration: none;
-	color: black;
 	padding: 10px;
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 120px;
 }
 
 .catalog__left_small_block,
@@ -72,7 +70,6 @@
 .catalog_link3,
 .catalog_link4{
 	display: block;
-	text-decoration: none;
 	color: black;
 	height: 31px;
 	font-size: 1.25em;

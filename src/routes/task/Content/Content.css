@@ -33,8 +33,6 @@
 .content__left_link,
 .content__right_link{
 	display: inline-block;
-	text-decoration: none;
-	color: black;
 	border-bottom: 2px solid black;
 	margin-top: 50px;
 	font-size: 1.25em;
