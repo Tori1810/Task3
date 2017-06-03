@@ -1,39 +1,34 @@
-/**
- * React Starter Kit (https://www.reactstarterkit.com/)
- *
- * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.txt file in the root directory of this source tree.
- */
-
 import React from 'react';
 import PropTypes from 'prop-types';
+import { FormattedRelative } from 'react-intl';
+import { graphql, compose } from 'react-apollo';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
-
-// external-global styles must be imported in your JS.
-import normalizeCss from 'normalize.css';
 import s from './Layout.css';
+import './Layout.css'
+import Header from '../Header/Header'
+import Pannel from '../Pannel/Pannel'
+import Catalog from '../Catalog/Catalog'
+import Content from '../Content/Content'
+import Gallery from '../Gallery/Gallery'
 
-import Header from '../Header';
-import Feedback from '../Feedback';
-import Footer from '../Footer';
+
 
 class Layout extends React.Component {
-  static propTypes = {
-    children: PropTypes.node.isRequired,
-  };
 
-  render() {
+  render() {   
+
     return (
-      <div>
-        <Header />
-        {this.props.children}
-        <Feedback />
-        <Footer />
+      <div className={s.layout}>
+      	<Header />
+      	<Pannel />
+      	<Catalog />
+        <Content />
+        <Gallery />
       </div>
     );
   }
 }
 
-export default withStyles(normalizeCss, s)(Layout);
+export default compose(
+  withStyles(s),
+)(Layout);

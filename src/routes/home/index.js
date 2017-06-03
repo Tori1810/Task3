@@ -8,8 +8,8 @@
  */
 
 import React from 'react';
-import Home from './Home';
-import Layout from '../../components/Layout';
+//import Home from './Home';
+import Layout from '../../components/Layout/Layout';
 
 export default {
 
@@ -17,8 +17,8 @@ export default {
 
   action() {
     return {
-      title: 'React Starter Kit',
-      component: <Layout><Home /></Layout>,
+      title: 'Майстерня',
+      component: <Layout />,
     };
   },
 
