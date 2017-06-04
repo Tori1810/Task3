@@ -104,8 +104,7 @@ class Home extends React.Component {
 
     return (
       <div >
-        <Layout>
-        <Header />
+        <Layout data={1}>
         <Pannel ><PannelSidebar /></ Pannel>
         <Catalog data={catalog_data}/>
         <Content />

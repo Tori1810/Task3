@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { FormattedRelative } from 'react-intl';
-import { graphql, compose } from 'react-apollo';
+import { compose } from 'react-apollo';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Pannel.css';
 

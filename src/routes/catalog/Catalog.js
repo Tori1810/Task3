@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { FormattedRelative } from 'react-intl';
-import { graphql, compose } from 'react-apollo';
+import { compose } from 'react-apollo';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import Content from '../../components/Content/Content'
 import Registration from '../../components/Registration/Registration';
@@ -30,8 +30,7 @@ class Catalog extends React.Component {
 
     return (
       <div >
-        <Layout >
-        <CatalogPageHeader />
+        <Layout data={2}>
         <h1 className={s.catalog__title}>Каталог продукції</h1>
         <Filter data={data1} />
         <Pannel data={data2}/>
