@@ -1,0 +1,23 @@
+
+
+.footer{
+	padding-top: 100px;
+	width: 75%;
+	height: 600px;
+	margin: 0 auto; 
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer__sidebar{
+	padding: 10px 0 0 30px;
+}
+
+.footer__contact{
+}
+
+.footer__pannel_menu{
+	padding-top: 50px;
+}
+
+

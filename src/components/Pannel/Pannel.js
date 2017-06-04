@@ -8,6 +8,10 @@ import s from './Pannel.css';
 
 class Pannel extends React.Component {
 
+  static propTypes = {
+    children: PropTypes.node.isRequired,
+  };
+
   render() {
 
     var button_text = "Зв'язатись з нами";
@@ -26,6 +30,7 @@ class Pannel extends React.Component {
           <a className={s.pannel_description__button} href="#">{button_text}</a>
         </div>
         <div className={s.pannel_sidebar}>
+          {this.props.children}
         </div>
       </div>
     );

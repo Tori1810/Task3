@@ -1,0 +1,63 @@
+
+.registration{
+  max-width: 1280px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.registration__title{
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  color: #4F4F4F;
+  margin-bottom: 0px;
+}
+
+.registration_subtitle{
+  text-align: center;
+  font-size: 1.25em;
+  padding-top: 20px;
+}
+
+.registration__form{
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.form__name, 
+.form__phone, 
+.form__email,
+.form__text {
+  display: block;
+  width: 40%;
+  height: 56px;
+  border: 2px solid #3C3C43;
+  font-size: 1.25em;
+  color: black; 
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-left: 15px;
+  border-radius: 3px; 
+}
+
+.form__text{
+  height: 120px;
+  max-width: 40%;
+}
+
+
+.form__button{
+  display: block;
+  width: 40%;
+  height: 56px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: #3C3C43;
+  color: white;
+  font-size: 1.25em;
+  border:none;
+  border-radius: 3px;
+
+}

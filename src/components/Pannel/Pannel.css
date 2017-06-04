@@ -14,7 +14,7 @@
 .pannel_sidebar{
 	width: 30%;
 	margin-left: 2%;
-	border: 1px solid black;
+	border: 2px solid black;
 }
 
 .pannel_description__main_block{
@@ -65,9 +65,7 @@
 	border: 2px solid black;
 	margin-top: 28px;
 	float: right;
-	text-decoration: none;
 	font-size: 1.25em;
-	color: black;
 	padding-top: 11px;
 	text-align: center;
 }
@@ -75,6 +73,7 @@
 .pannel_description__text{
 	font-size: 3.375em;
 	font-weight: bold;
+	color: #3C3C43;
 	width: 730px;
 	text-align: center;
 	margin: 0 auto;

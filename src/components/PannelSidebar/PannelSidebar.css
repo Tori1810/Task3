@@ -1,0 +1,23 @@
+
+
+.pannel_sidebar{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 80px 0 0 40px;
+}
+
+.pannel_sidebar__img{
+	width: 48px;
+	height: 133px;
+	background: url('../images/logo-small.png') no-repeat 0 0;
+}
+
+.pannel_sidebar__contacts{
+	margin: 15px 0 0 30px;
+
+}
+
+.pannel_sidebar__menu{
+	margin-top: 50px;
+
+}
