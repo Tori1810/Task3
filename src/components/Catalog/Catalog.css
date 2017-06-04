@@ -94,8 +94,7 @@
 .catalog_link2:hover,
 .catalog_link3:hover,
 .catalog_link4:hover{
-	font-size: 1.5em;
-	color: #3C3C83;
+	color: #3C3CB5;
 }
 
 .catalog_link1{
@@ -112,6 +111,25 @@
 
 .catalog_link4{
 	width: 90px;
+}
+
+.small_img,
+.big_img{
+	transition: 0.5s;
+}
+
+.small_img:hover,
+.big_img:hover{
+	box-shadow:
+    1px 1px #3C3C43,
+    2px 2px #3C3C43,
+    3px 3px #3C3C43,
+    4px 4px #3C3C43,
+    5px 5px #3C3C43,
+    6px 6px #3C3C43,
+    7px 7px #3C3C43;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
 }
 
 @media screen and (max-width: 1320px){

@@ -52,6 +52,11 @@
 	width: 113px;
 }
 
+.content__left_link:hover,
+.content__right_link:hover{
+	color: #3C3CB5;
+}
+
 .content__poster{
 	float: left;
 	margin-right: 2%;

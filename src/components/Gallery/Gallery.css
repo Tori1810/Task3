@@ -35,12 +35,31 @@
 .gallery_block__item5,
 .gallery_block__item6{
 	margin-left: 27px;
+	transition: 0.5s;
 }
 
 .gallery_block__item4,
 .gallery_block__item5,
 .gallery_block__item6{
 	margin-top: 50px;
+}
+
+.gallery_block__item1:hover,
+.gallery_block__item2:hover,
+.gallery_block__item3:hover,
+.gallery_block__item4:hover,
+.gallery_block__item5:hover,
+.gallery_block__item6:hover{
+	box-shadow:
+    1px 1px #3C3C43,
+    2px 2px #3C3C43,
+    3px 3px #3C3C43,
+    4px 4px #3C3C43,
+    5px 5px #3C3C43,
+    6px 6px #3C3C43,
+    7px 7px #3C3C43;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
 }
 
 .gallery_photo__caption{
@@ -60,6 +79,12 @@
 	color: #3C3C43;
 	margin-top: 30px;
 	padding: 12px;
+	transition: 2s;
+}
+
+.gallery__button:hover{
+	color: white;
+	background-color: #3C3C43;
 }
 
 @media screen and (max-width: 1110px){
