@@ -8,10 +8,6 @@ import s from './Pannel.css';
 
 class Pannel extends React.Component {
 
-  static propTypes = {
-    children: PropTypes.node.isRequired,
-  };
-
   render() {
 
     var button_text = "Зв'язатись з нами";
@@ -24,10 +20,10 @@ class Pannel extends React.Component {
             <div className={s.pannel_description__text}>{description_text}</div>
           </div>
           <div className={s.pannel__lang}>
-            <a href="#" className={s.pannel__lang_first}>УКР</a>
-            <a href="#" className={s.pannel__lang_second}>РУС</a>
+            <a href="" className={s.pannel__lang_first}>УКР</a>
+            <a href="" className={s.pannel__lang_second}>РУС</a>
           </div>
-          <a className={s.pannel_description__button} href="#">{button_text}</a>
+          <a className={s.pannel_description__button} href="#registration">{button_text}</a>
         </div>
         <div className={s.pannel_sidebar}>
           {this.props.children}

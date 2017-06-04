@@ -5,7 +5,6 @@ import { compose } from 'react-apollo';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import Content from '../../components/Content/Content'
 import Registration from '../../components/Registration/Registration';
-import CatalogPageHeader from '../../components/CatalogPageHeader/CatalogPageHeader';
 import Layout from '../../components/Layout/Layout';
 import Pannel from './components/Pannel/Pannel';
 import Filter from './components/Filter/Filter';

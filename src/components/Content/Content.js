@@ -16,14 +16,14 @@ class Content extends React.Component {
     var p3 = 'Найважливіше для нас - ваше естетичне задоволення, тож ми гарантуємо якість нашої роботи та дотримання термінів виконання.'
 
     return (
-      <div className={s.content}>
+      <div id='aboutUs' className={s.content}>
         <img src={imgUrl} alt='poster' className={s.content__poster} />
           <h1 className={s.content__title}>Про нас</h1>
           <p className={s.content__text1}>{p1}</p>
           <p className={s.content__text2}>{p2}</p>
           <p className={s.content__text3}>{p3}</p>
-          <a href='#' className={s.content__left_link}>Детальніше</a>
-          <a href='#' className={s.content__right_link}>Переглянути роботи</a>
+          <a href='*' className={s.content__left_link}>Детальніше</a>
+          <a href='catalog' className={s.content__right_link}>Переглянути роботи</a>
       </div>
     );
   }
