@@ -77,3 +77,9 @@
   margin-top: 20px;
 }
 
+
+@media screen and (max-width: 1345px){
+  .filter__title{
+    padding-top: 0;
+  }
+}

@@ -29,7 +29,7 @@ class Catalog extends React.Component {
     var data3 = {title: 'Садово-паркове мистецтво', img: [url8]};
 
     return (
-      <div >
+      <div className={s.catalog}>
         <Layout data={2}>
         <h1 className={s.catalog__title}>Каталог продукції</h1>
         <Filter data={data1} />
