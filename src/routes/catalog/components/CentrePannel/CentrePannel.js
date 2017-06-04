@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 import { FormattedRelative } from 'react-intl';
 import { compose } from 'react-apollo';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import s from './Pannel.css';
+import s from './CentrePannel.css';
 
 
-class Pannel extends React.Component {
+class CentrePannel extends React.Component {
   
   propTypes: {
     data: PropTypes.object.isRequired,
@@ -18,7 +18,7 @@ class Pannel extends React.Component {
     var img_array = data.img;
     var img_template = img_array.map(function(item, index){
       return(
-        <img className={s.pannel__img} src={item} />
+        <img className={s.pannel__img} src={item} alt="img" />
       )
     });
 
@@ -37,4 +37,4 @@ class Pannel extends React.Component {
 
 export default compose(
   withStyles(s),
-)(Pannel);
+)(CentrePannel);

@@ -39,11 +39,11 @@ class Filter extends React.Component {
             </ul>
             <div className={s.filter__img_block}>
               <img className={s.filter__img0} src={img_array[0]} />
-              <div className={s.filter__img__cover}>      
+              <div className={s.filter__img__cover1}>      
                 <img className={s.filter__img1} src={img_array[1]} />
                 <img className={s.filter__img2} src={img_array[2]} />
               </div>  
-              <div className={s.filter__img__cover}>
+              <div className={s.filter__img__cover2}>
                 <img className={s.filter__img3} src={img_array[3]} />
                 <img className={s.filter__img4} src={img_array[4]} />
               </div>  

@@ -1,0 +1,46 @@
+.pannel{
+	width: 95%;
+	margin: 0 auto;
+	padding: 100px 0 0 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.pannel__title{
+	width: 26%;
+	font-size: 1.5em;
+}
+
+.pannel__img_block{
+	padding-top: 40px;
+	margin: 12px 0 0 40px;
+	border-top: 2px solid gray;
+}
+
+.la{
+	background: red;
+}
+
+@media screen and (max-width: 1350px){
+
+	.pannel{
+		padding: 30px 0 0 0;
+	}
+
+	.pannel__title{
+		width: 100%;
+	}
+  
+  	.pannel__img_block{
+		border-top: none;
+		padding: 0;
+		margin: 20px 0 0 0;
+  	}
+
+  	.pannel__img{
+  		width: 100%;
+	}
+
+}
+
+
