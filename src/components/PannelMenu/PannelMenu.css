@@ -9,3 +9,8 @@
 	padding-bottom: 7px;
 	color: #3C3C43;
 }
+
+.pannel_menu__item:hover{
+	font-size: 1.5em;
+	color: #3C3C83;
+}

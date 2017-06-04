@@ -51,6 +51,12 @@
 	padding: 11px;
 	text-align: center;
 	margin-top: 120px;
+	transition: 2s;
+}
+
+.catalog_menu__button:hover{
+	color: white;
+	background-color: #3C3C43;
 }
 
 .catalog__left_small_block,
@@ -81,6 +87,15 @@
 	border-bottom: 2px solid #3C3C43;
 	text-align: center;
 	margin-top: 15px;
+}
+
+
+.catalog_link1:hover,
+.catalog_link2:hover,
+.catalog_link3:hover,
+.catalog_link4:hover{
+	font-size: 1.5em;
+	color: #3C3C83;
 }
 
 .catalog_link1{

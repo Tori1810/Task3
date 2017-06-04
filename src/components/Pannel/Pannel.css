@@ -57,12 +57,19 @@
 	display: inline-block;
 	width: 254px;
 	height: 51px;
-	border: 2px solid black;
+	border: 2px solid #3C3C43;
 	margin-top: 28px;
 	float: right;
 	font-size: 1.25em;
 	padding-top: 11px;
 	text-align: center;
+	transition: 2s;
+}
+
+.pannel_description__button:hover{
+	color: white;
+
+	background-color: #3C3C43;
 }
 
 .pannel_description__text{
