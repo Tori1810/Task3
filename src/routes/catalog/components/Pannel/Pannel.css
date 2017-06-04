@@ -1,0 +1,26 @@
+.pannel{
+	width: 95%;
+	margin: 0 auto;
+	padding: 100px 0 0 30px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.pannel__title{
+	height: 500px;
+	font-size: 1.5em;
+}
+
+.pannel__img_block{
+	padding-top: 40px;
+	margin: 12px 0 0 40px;
+	border-top: 2px solid gray;
+}
+
+.pannel__img{
+	margin-left: 20px;
+}
+
+.la{
+	background: red;
+}

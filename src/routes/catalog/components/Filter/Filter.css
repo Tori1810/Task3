@@ -1,0 +1,79 @@
+.filter{
+  width: 95%;
+  margin: 0 auto;
+  padding: 100px 0 0 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter__title{
+  height: 200px;
+  width: 26%;
+  font-size: 1.5em;
+}
+
+.filter__main_block{
+  padding-top: 20px;
+  margin: 12px 0 0 40px;
+  border-top: 2px solid gray;
+}
+
+.filter__menu__title{
+  display: inline-block;
+}
+
+.filter__menu__list{
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.filter__menu__list li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.filter__menu__item{
+  font-size: 1em;
+}
+
+.filter__img_block{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.filter__img__cover{
+  margin-left: 20px;
+}
+
+.filter__img0{
+  width: 280px;
+  height: 420px;
+}
+
+.filter__img1{
+  width: 180px;
+  height: 220px;
+  display: block;
+}
+
+.filter__img2{
+  width: 180px;
+  height: 180px;
+  display: block;
+  margin-top: 20px;
+}
+
+.filter__img3{
+  width: 380px;
+  height: 160px;
+  display: block;
+}
+
+.filter__img4{
+  width: 380px;
+  height: 240px;
+  display: block;
+  margin-top: 20px;
+}
+
