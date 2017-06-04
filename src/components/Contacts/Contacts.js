@@ -18,7 +18,7 @@ class Contacts extends React.Component {
 
       <div className={s.contacts}>
         <div className={s.contacts__title}>{this.props.title}</div>
-        <div className={s.contacts__phone}>+38 066 445 59 00</div>
+        <a className={s.contacts__phone} href="">+38 066 445 59 00</a>
         <div className={s.contacts__adress}>м. Мукачево, вул. Переяславська, 1</div>
        </div> 
     );

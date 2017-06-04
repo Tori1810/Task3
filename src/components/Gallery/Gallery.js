@@ -14,21 +14,21 @@ class Gallery extends React.Component {
     var data = this.props.data;
     var gallery_template = data.map(function(item, index){
       return(
-        <div className={s[item.class]}>
-          <img src={item.img} alt={item.alt} className={s.gallery_photo} />
+        <div key={index} className={s[item.class]}>
+          <a href="catalog"><img src={item.img} alt={item.alt} className={s.gallery_photo} /></a>
           <div className={s.gallery_photo__caption}>{item.title}</div>
         </div>
       )
     })
 
     return (
-      <div className={s.gallery}>
+      <div id='products' className={s.gallery}>
         <h1 className={s.gallery__title}>Краще один раз подивитись</h1>
         <div className={s.gallery__subtitle}>Фото проектів з нашого <b>instagram</b></div>
         <div className={s.gallery_block}>
           {gallery_template}
         </div>
-        <a href='#' className={s.gallery__button}>Всі проекти</a>
+        <a href='catalog' className={s.gallery__button}>Всі проекти</a>
       </div>
     );
   }

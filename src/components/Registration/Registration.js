@@ -20,14 +20,14 @@ class Registration extends React.Component {
 
     return (
 
-      <div className={s.registration}>
+      <div id='registration' className={s.registration}>
         <h1 className={s.registration__title}>Виготовимо наступний шедевр разом</h1>
         <div className={s.registration_subtitle}>Зв'яжіться з нами та дізнайтесь більше</div>
 
         <form className={s.registration__form}>
-          <input className={s.form__name} placeholder={placeholder_name} />
-          <input className={s.form__phone} placeholder={placeholder_phone} />
-          <input className={s.form__email} placeholder={placeholder_email} />
+          <input className={s.form__name} placeholder={placeholder_name} required/>
+          <input className={s.form__phone} placeholder={placeholder_phone} required/>
+          <input className={s.form__email} placeholder={placeholder_email} required/>
           <textarea className={s.form__text} placeholder={placeholder_text}></textarea>
           <button className={s.form__button} type='submit'>{button_text}</button>
 

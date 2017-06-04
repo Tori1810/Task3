@@ -8,7 +8,7 @@ import './Layout.css'
 import Pannel from '../Pannel/Pannel'
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
-import CatalogPageHeader from '../CatalogPageHeader/CatalogPageHeader';
+import CatalogHeader from '../../routes/catalog/components/CatalogHeader/CatalogHeader';
 
 
 
@@ -27,7 +27,7 @@ class Layout extends React.Component {
         	return (<Header />);
         }
         if (data == 2){
-        	return (<CatalogPageHeader />);
+        	return (<CatalogHeader />);
         }
     };
 
