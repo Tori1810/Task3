@@ -9,11 +9,9 @@ import Pannel from '../Pannel/Pannel'
 import Footer from '../Footer/Footer';
 
 
+
 class Layout extends React.Component {
 
-  static propTypes = {
-    header: PropTypes.string.isRequired,
-  };
 
   render() {   
 

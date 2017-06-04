@@ -9,11 +9,11 @@
 
 .pannel_description{
 	width: 68%;
+	margin: 0 2% 0 0;
 }
 
 .pannel_sidebar{
 	width: 30%;
-	margin-left: 2%;
 	border: 2px solid black;
 }
 
@@ -29,10 +29,6 @@
 	width: 109px;
 	height: 22px;
 	margin-top: 50px;
-}
-
-.pannel__lang_type{
-	border: 1px solid black;
 }
 
 .pannel__lang_first{
@@ -57,7 +53,6 @@
 	font-size: 1.25em;
 }
 
-
 .pannel_description__button{
 	display: inline-block;
 	width: 254px;
@@ -74,7 +69,45 @@
 	font-size: 3.375em;
 	font-weight: bold;
 	color: #3C3C43;
-	width: 730px;
+	max-width: 730px;
 	text-align: center;
 	margin: 0 auto;
+}
+
+
+@media screen and (max-width: 955px){
+	
+	.pannel_sidebar{
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 560px;
+		width: 360px;
+		display: none;
+	}	
+
+	.pannel_description{
+		width: 100%;
+	}	
+}
+
+
+@media screen and (max-width: 585px){
+	
+	.pannel_description__text{
+		text-align: left;
+		padding-left: 5%;
+	}
+}
+
+
+@media screen and (max-width: 400px){
+	
+	.pannel__lang{
+		display: none;
+	}
+
+	.pannel_description__text{
+		font-size: 3em;
+	}	
 }

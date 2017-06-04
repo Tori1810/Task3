@@ -18,14 +18,12 @@ class Content extends React.Component {
     return (
       <div className={s.content}>
         <img src={imgUrl} alt='poster' className={s.content__poster} />
-        <div className={s.content__description}>
           <h1 className={s.content__title}>Про нас</h1>
           <p className={s.content__text1}>{p1}</p>
           <p className={s.content__text2}>{p2}</p>
           <p className={s.content__text3}>{p3}</p>
           <a href='#' className={s.content__left_link}>Детальніше</a>
           <a href='#' className={s.content__right_link}>Переглянути роботи</a>
-        </div>
       </div>
     );
   }

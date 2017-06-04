@@ -2,7 +2,7 @@
 
 .footer{
 	padding-top: 100px;
-	width: 75%;
+	width: 1000px;
 	height: 600px;
 	margin: 0 auto; 
 	display: flex;
@@ -20,4 +20,36 @@
 	padding-top: 50px;
 }
 
+
+@media screen and (max-width: 1260px){
+	
+	.footer{
+		width: 80%;
+	}
+
+	.footer__map{
+		width: 90%;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+
+	.footer__sidebar{
+		margin: 0 auto;
+		padding-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 724px){
+	
+	.footer__map{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 360px){
+	
+	.footer__sidebar{
+		padding: 0;
+	}
+}
 
