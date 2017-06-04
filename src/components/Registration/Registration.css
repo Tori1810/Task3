@@ -61,3 +61,30 @@
   border-radius: 3px;
 
 }
+
+
+@media screen and (max-width: 1280px){
+
+  .form__name, 
+  .form__phone, 
+  .form__email,
+  .form__text, 
+  .form__button{
+      width: 320px;
+      max-width: 320px;
+  }
+
+}
+
+@media screen and (max-width: 600px){
+
+  .registration{
+    width: 100%;
+  }
+
+  .registration__title,
+  .registration_subtitle{
+    text-align: left;
+    padding-left: 2%;
+  }
+}
