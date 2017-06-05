@@ -11,11 +11,13 @@ class PannelMenu extends React.Component {
   render() {
 
     return (
-      <ul className={s.pannel_menu}>
-        <li><a href="catalog" className={s.pannel_menu__item}>Каталог продукції</a></li>
-        <li><a href="#aboutUs" className={s.pannel_menu__item}>Про нас</a></li>
-        <li><a href="#products" className={s.pannel_menu__item}>Наші роботи</a></li>
-      </ul>
+      <div className={s.pannel_menu}>
+        <ul className={s.pannel_menu__list}>
+          <li><a href="catalog" className={s.pannel_menu__item}>Каталог продукції</a></li>
+          <li><a href="#aboutUs" className={s.pannel_menu__item}>Про нас</a></li>
+          <li><a href="#products" className={s.pannel_menu__item}>Наші роботи</a></li>
+        </ul>
+      </div>
     );
   }
 }

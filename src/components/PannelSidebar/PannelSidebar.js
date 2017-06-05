@@ -19,7 +19,6 @@ class PannelSidebar extends React.Component {
         <div className={s.pannel_sidebar__img}></div>
         <div className={s.pannel_sidebar__contacts}><Contacts title={contacts_title}/></div>
         <div className={s.pannel_sidebar__menu}><PannelMenu /></div>
-
       </div>
     );
   }

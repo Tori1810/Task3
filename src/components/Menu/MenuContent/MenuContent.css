@@ -1,0 +1,33 @@
+
+.menu{
+	width: 360px;
+	display:block;
+	position: absolute;
+	right: 0;
+	background-color: rgb(245,245,245);
+}
+
+.menu__pannel_button{
+	width: 100%;
+	height: 80px;
+	padding-top: 17px;
+	margin-top: 30px;
+	background-color: #F9F0DD;
+	text-align: center;
+}
+
+.menu__button{
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+	border: 2px solid #3C3C43;
+	font-size: 1.25em;
+	padding: 10px;
+	text-align: center;
+	transition: 2s;
+}
+
+.menu__button:hover{
+	color: white;
+	background-color: #3C3C43;
+}

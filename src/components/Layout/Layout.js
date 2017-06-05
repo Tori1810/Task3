@@ -8,6 +8,7 @@ import './Layout.css'
 import Pannel from '../Pannel/Pannel'
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
+import MenuHeader from '../Menu/MenuHeader/MenuHeader';
 import CatalogHeader from '../../routes/catalog/components/CatalogHeader/CatalogHeader';
 
 
@@ -33,6 +34,7 @@ class Layout extends React.Component {
 
     return (
       <div className={s.layout}>
+        <MenuHeader />
       	{header_template(data)}
         {this.props.children}
         <Footer />
