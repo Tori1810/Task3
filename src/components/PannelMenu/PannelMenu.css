@@ -1,17 +1,29 @@
 
-.pannel_menu__list li{
-	margin-top: 15px;
-}
-
-
-.pannel_menu__item{
-	display: inline-block;
+.pannel_menu__item1,
+.pannel_menu__item2,
+.pannel_menu__item3{
+	display: block;
+	margin-top: 5%;
 	font-size: 1.25em;
 	border-bottom: 2px solid #3C3C43;
 	padding-bottom: 7px;
 	color: #3C3C43;
 }
 
-.pannel_menu__item:hover{
+.pannel_menu__item1{
+	width: 170px;
+}
+
+.pannel_menu__item2{
+	width: 75px;
+}
+
+.pannel_menu__item3{
+	width: 120px;
+}
+
+.pannel_menu__item1:hover,
+.pannel_menu__item2:hover,
+.pannel_menu__item3:hover{
 	color: #3C3CB5;
 }

@@ -3,7 +3,7 @@
 .pannel_sidebar{
 	display: flex;
 	flex-wrap: wrap;
-	margin: 10% 0 0 5%;
+	margin: 20% 0 0 5%;
 }
 
 .pannel_sidebar__img{
@@ -13,7 +13,7 @@
 }
 
 .pannel_sidebar__contacts{
-	margin: 5% 0 0 15%;
+	margin: 5% 0 0 5%;
 
 }
 
@@ -30,11 +30,11 @@
 	}
 
 	.pannel_sidebar__img{
-		margin-left: 35%;
+		margin-left: 5%;
 	}
 
 	.pannel_sidebar__menu{
-		margin-top: 12%;
+		margin-top: 10%;
 		margin-left: 5%;
 	}
 
@@ -61,12 +61,12 @@
 
 
 	.pannel_sidebar__contacts{
-		margin: 5% 0 0 15%;
+		margin: 5% 0 0 5%;
 
 	}
 
 	.pannel_sidebar__menu{
-		margin-top: 20%;
+		margin-top: 10%;
 	}
 }
 

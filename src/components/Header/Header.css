@@ -17,10 +17,12 @@
 .logo_img{
 	width: 100px;
 	height: 285px;
-	margin-left: 65px;
+	margin-left: 80px;
 }
 
 .logo_title{
+	font-family: 'Lora';
+	padding-top: 40px;
 	font-size: 48px;
 	font-weight: bold;
 	color: #3C3C43;

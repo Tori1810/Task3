@@ -11,7 +11,9 @@
 	font-size: 2.25em;
 	font-weight: bold;
 	padding-top: 30px;
+	color: #4F4F4F;
 	width: 40%;
+	font-family: 'Lora';
 }
 
 .header__contacts{
@@ -20,12 +22,14 @@
 }
 
 .header__phone{
+	color: #4F4F4F;
 	padding-top: 30px;
 	width: 100%;
 	font-size: 1.5em;
 }
 
 .header__contacts_text{
+	color: #4F4F4F;
 	font-size: 1em;
 	padding-top: 10px;
 	width: 100%;
@@ -33,6 +37,7 @@
 
 .header__button{
 	display: inline-block;
+	color: #4F4F4F;
 	width: 20%;
 	height: 51px;
 	border: 2px solid #3C3C43;
