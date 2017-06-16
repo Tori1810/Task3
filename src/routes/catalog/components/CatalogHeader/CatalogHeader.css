@@ -22,10 +22,11 @@
 }
 
 .header__phone{
+	display: block;
 	color: #4F4F4F;
 	padding-top: 30px;
 	width: 100%;
-	font-size: 1.5em;
+	font-size: 1.25em;
 }
 
 .header__contacts_text{
@@ -44,7 +45,7 @@
 	margin-top: 28px;
 	margin-left: 5%;
 	float: right;
-	font-size: 1.25em;
+	font-size: 1.1em;
 	padding: 1%;
 	text-align: center;
   	transition: 2s;

@@ -1,6 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { FormattedRelative } from 'react-intl';
 import { compose } from 'react-apollo';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './CatalogHeader.css';
@@ -10,7 +8,7 @@ class CatalogHeader extends React.Component {
 
   render() {
 
-    const 
+    const
       title_text = "Майстерня",
       button_text = "Зв'язатись з нами",
       contacts_text = "Доставка по Україні",
@@ -21,7 +19,7 @@ class CatalogHeader extends React.Component {
       <div className={s.header}>
         <h1 className={s.header__title}>{title_text}</h1>
         <div className={s.header__contacts}>
-          <div className={s.header__phone}>{phone}</div>
+          <a href="tel:+38 066 445 59 00" className={s.header__phone}>{phone}</a>
           <div className={s.header__contacts_text}>{contacts_text}</div>
         </div>
         <a href="#registration" className={s.header__button}>{button_text}</a>
@@ -29,7 +27,7 @@ class CatalogHeader extends React.Component {
           <a href="" className={s.header__lang_first}>УКР</a>
           <a href="" className={s.header__lang_second}>РУС</a>
         </div>
-      </div> 
+      </div>
     );
   }
 }

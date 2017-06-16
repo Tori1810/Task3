@@ -64,6 +64,7 @@
 }
 
 .gallery_photo__caption{
+	display: block;
 	text-align: center;
 	font-size: 1.25em;
 	margin-top: 15px;

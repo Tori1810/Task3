@@ -1,6 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { FormattedRelative } from 'react-intl';
 import { compose } from 'react-apollo';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Pannel.css';
@@ -10,8 +8,8 @@ class Pannel extends React.Component {
 
   render() {
 
-    var button_text = "Зв'язатись з нами";
-    var description_text = "Створюємо шедеври з натурального каменю власноруч"
+    const button_text = "Зв'язатись з нами",
+          description_text = "Створюємо шедеври з натурального каменю власноруч"
 
     return (
       <div className={s.pannel}>

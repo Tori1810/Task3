@@ -1,6 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { FormattedRelative } from 'react-intl';
 import { compose } from 'react-apollo';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import Content from '../../components/Content/Content'
@@ -10,25 +8,25 @@ import CentrePannel from './components/CentrePannel/CentrePannel';
 import BottomPannel from './components/BottomPannel/BottomPannel';
 import Filter from './components/Filter/Filter';
 import s from './Catalog.css';
-import url1 from '../../components/images/product1.jpg';
-import url2 from '../../components/images/product2.jpg';
-import url3 from '../../components/images/chess.jpg';
-import url4 from '../../components/images/product3.jpg';
-import url5 from '../../components/images/product4.jpg';
-import url6 from '../../components/images/product5.jpg';
-import url7 from '../../components/images/product6.jpg';
-import url8 from '../../components/images/product7.jpg';
 
 
 class Catalog extends React.Component {
 
-  render() {   
+  render() {
 
+    const img1 = ['http://cdn1.savepice.ru/uploads/2017/6/16/ae20da73acab16393c0ad1cbbc124c03-full.jpg',
+                  'http://cdn1.savepice.ru/uploads/2017/6/16/489b2fa6c5abe4e2c7e7636e5a4bf434-full.jpg',
+                  'http://cdn1.savepice.ru/uploads/2017/6/16/bedd5a139959fc115879e41a2e2a8231-full.jpg',
+                  'http://cdn1.savepice.ru/uploads/2017/6/16/1bc00844144b7902b0d59a43e4d7bbf9-full.jpg',
+                  'http://cdn1.savepice.ru/uploads/2017/6/16/b1e94d53789193c1b4b70a4db28bc43b-full.jpg'],
+          img2 = ['http://cdn1.savepice.ru/uploads/2017/6/16/4f80680336e0cf0f55cc9720dbc39426-full.jpg',
+                  'http://cdn1.savepice.ru/uploads/2017/6/16/489b2fa6c5abe4e2c7e7636e5a4bf434-full.jpg',
+                  'http://cdn1.savepice.ru/uploads/2017/6/16/b3c196c2d312af688fdcdc5dbba3540c-full.jpg'],
+          img3 = ['http://cdn1.savepice.ru/uploads/2017/6/16/a2b3d5b813f26f96fc9845b9e0104890-full.jpg'];
 
-
-    var data1 = {title: 'Внутрішнє та зовнішнє оздоблення', img: [url1, url2, url3, url4, url5]}
-    var data2 = {title: 'Складні архітектурні вироби', img: [url6, url2, url7]}
-    var data3 = {title: 'Садово-паркове мистецтво', img: url8};
+    const data1 = {title: 'Внутрішнє та зовнішнє оздоблення', img: img1},
+          data2 = {title: 'Складні архітектурні вироби', img: img2},
+          data3 = {title: 'Садово-паркове мистецтво', img: img3};
 
     return (
       <div className={s.catalog}>

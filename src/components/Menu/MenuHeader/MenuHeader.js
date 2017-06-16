@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { compose } from 'react-apollo';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './MenuHeader.css';
@@ -13,9 +12,9 @@ var MenuHeader = React.createClass ({
   			visible: false
   		};
   	},
-  
+
   	MenuClick: function(){
-  		
+
     	if (this.state.visible == false){
     		this.setState({visible: true})
     	}
@@ -26,9 +25,9 @@ var MenuHeader = React.createClass ({
 
   render() {
 
-  	var visible = this.state.visible;
+  	let visible = this.state.visible;
 
-  	
+
   	function component_template(){
   		if (visible == true){
   			return(<div>{<MenuContent />}</div>)

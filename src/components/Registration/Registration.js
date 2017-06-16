@@ -1,13 +1,11 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { FormattedRelative } from 'react-intl';
 import { compose } from 'react-apollo';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Registration.css';
 
 
 class Registration extends React.Component {
-  
+
 
   render() {
 
@@ -25,10 +23,10 @@ class Registration extends React.Component {
         <div className={s.registration_subtitle}>Зв'яжіться з нами та дізнайтесь більше</div>
 
         <form className={s.registration__form}>
-          <input className={s.form__name} placeholder={placeholder_name} required/>
-          <input className={s.form__phone} placeholder={placeholder_phone} required/>
-          <input className={s.form__email} placeholder={placeholder_email} required/>
-          <textarea className={s.form__text} placeholder={placeholder_text}></textarea>
+          <input name="name" className={s.form__name} placeholder={placeholder_name} required/>
+          <input name="phone" className={s.form__phone} placeholder={placeholder_phone} required/>
+          <input name="email" className={s.form__email} placeholder={placeholder_email} required/>
+          <textarea name="text" className={s.form__text} placeholder={placeholder_text}></textarea>
           <button className={s.form__button} type='submit'>{button_text}</button>
 
 

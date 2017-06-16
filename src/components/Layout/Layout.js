@@ -22,7 +22,7 @@ class Layout extends React.Component {
 
   render() {   
 
-  	var data = this.props.data;
+  	const data = this.props.data;
     function header_template(data){
         if (data == 1){
         	return (<Header />);

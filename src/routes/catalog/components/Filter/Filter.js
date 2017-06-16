@@ -1,22 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { FormattedRelative } from 'react-intl';
 import { compose } from 'react-apollo';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Filter.css';
 
 
 class Filter extends React.Component {
-  
+
   propTypes: {
     data: PropTypes.object.isRequired,
   };
 
   render() {
 
-    var data=this.props.data;
-    var img_array = data.img;
-    var img_template = img_array.map(function(item, index){
+    const data=this.props.data,
+          img_array = data.img,
+          img_template = img_array.map(function(item, index){
       return(
         <img className={s.pannel__img} src={item} />
       )
@@ -39,16 +38,16 @@ class Filter extends React.Component {
             </ul>
             <div className={s.filter__img_block}>
               <img className={s.filter__img0} src={img_array[0]} />
-              <div className={s.filter__img__cover1}>      
+              <div className={s.filter__img__cover1}>
                 <img className={s.filter__img1} src={img_array[1]} />
                 <img className={s.filter__img2} src={img_array[2]} />
-              </div>  
+              </div>
               <div className={s.filter__img__cover2}>
                 <img className={s.filter__img3} src={img_array[3]} />
                 <img className={s.filter__img4} src={img_array[4]} />
-              </div>  
+              </div>
             </div>
-          </div> 
+          </div>
         </div>
       </div>
 

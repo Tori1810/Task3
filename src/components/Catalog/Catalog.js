@@ -1,6 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { FormattedRelative } from 'react-intl';
 import { compose } from 'react-apollo';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Catalog.css';
@@ -13,15 +11,15 @@ class Catalog extends React.Component {
 
   render() {
 
-    var data = this.props.data;
-    var data_template = data.map(function(item, index){
+    const data = this.props.data;
+    const data_template = data.map(function(item, index){
       return(
         <div key={index} className={s[item.class]}>
           <a href="catalog"><img src={item.img} alt={item.alt} className={s[item.class_img]} /></a>
           <a href="catalog" className={s[item.class_link]}>{item.title}</a>
         </div>
       )
-    })
+    });
 
     return (
       <div className={s.catalog}>
